@@ -1,0 +1,17 @@
+{
+	ingredient: { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["granite", "andesite", "basalt", "peridotite"] },
+	pattern: [[
+		"__________",
+		"##########",
+		"##########",
+		"##########",
+		"##########",
+		"##########",
+		"##########",
+		"##########",
+		"##########",
+		"__________"
+	]],
+	name: "Grinding stone",
+	output: { type: "block", code: "gstone:grindingstone-{rock}"  }
+}

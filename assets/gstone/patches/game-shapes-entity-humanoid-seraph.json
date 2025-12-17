@@ -1,0 +1,69 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/animations/-",
+		"value": {
+			"name": "grindingstone",
+			"code": "grindingstone",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"UpperArmR": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 47.0, "rotationY": 30.0, "rotationZ": -44.0 },
+						"LowerArmR": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -78.0 },
+						"UpperArmL": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -51.0, "rotationY": -33.0, "rotationZ": -55.0 },
+						"LowerArmL": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -68.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"UpperArmR": { "rotationX": 47.0, "rotationY": 30.0, "rotationZ": -69.0 },
+						"LowerArmR": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -30.0 },
+						"UpperArmL": { "rotationX": -51.0, "rotationY": -33.0, "rotationZ": -57.0 },
+						"LowerArmL": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -33.0 }
+					}
+				}
+			]
+		},
+		"file": "game:shapes/entity/humanoid/seraph-faceless.json"
+	},
+
+	{
+		"op": "addmerge",
+		"path": "/animations/-",
+		"value": {
+			"name": "grindingstone-fp",
+			"code": "grindingstone-fp",
+			"quantityframes": 60,
+			"onActivityStopped": "EaseOut",
+			"onAnimationEnd": "Repeat",
+			"keyframes": [
+				{
+					"frame": 0,
+					"elements": {
+						"UpperArmR": { "offsetX": 2.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 47.0, "rotationY": 30.0, "rotationZ": -55.0 },
+						"LowerArmR": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -78.0 },
+						"UpperArmL": { "offsetX": 2.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": -51.0, "rotationY": -33.0, "rotationZ": -69.0 },
+						"LowerArmL": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -68.0 }
+					}
+				},
+				{
+					"frame": 20,
+					"elements": {
+						"UpperArmR": { "rotationX": 47.0, "rotationY": 30.0, "rotationZ": -80.0 },
+						"LowerArmR": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
+						"UpperArmL": { "rotationX": -51.0, "rotationY": -33.0, "rotationZ": -86.0 },
+						"LowerArmL": { "offsetX": 0.0, "offsetY": 1.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 }
+					}
+				}
+			]
+		},
+		"file": "game:shapes/entity/humanoid/seraph-faceless.json"
+	}
+	
+	
+]

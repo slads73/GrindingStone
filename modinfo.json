@@ -1,0 +1,10 @@
+{
+  "Type": "Code",
+  "Name": "Grinding Stone",
+  "Version": "1.0.0",
+  "Description": "Adds a grinding stone for manual grinding.",
+  "ModID": "gstone",
+  "Authors": [
+    "Reizeron"
+  ]
+}

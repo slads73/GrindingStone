@@ -1,0 +1,61 @@
+[
+	{
+		"file": "game:itemtypes/resource/ore-ungraded.json",
+		"op": "addmerge",
+		"path": "/attributesByType",
+		"value": {
+			"*-sulfur":
+			{
+				handGrindingProps:
+				{
+					isHandGrindable: true
+				}
+			}
+		}
+	},
+	{
+		"file": "game:itemtypes/resource/ore-ungraded.json",
+		"op": "addmerge",
+		"path": "/attributesByType",
+		"value": {
+			"*-borax":
+			{
+				handGrindingProps:
+				{
+					isHandGrindable: true
+				}
+			}
+		}		
+	},
+	{
+		"file": "game:itemtypes/resource/ore-ungraded.json",
+		"op": "addmerge",
+		"path": "/attributesByType",
+		"value": {
+			"*-sylvite":
+			{
+				handGrindingProps:
+				{
+					isHandGrindable: true
+				}
+			}
+		}		
+	}	
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

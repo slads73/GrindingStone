@@ -1,0 +1,71 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/client/animations/-",
+		"value": {
+			code: "grindingstone",
+			animation: "grindingstone",
+			blendMode: "Add",
+			easeInSpeed: 7,
+			animationSpeed: 1,
+			weightCapFactor: 0.85,
+			weight: 0,
+			elementWeight: {
+				"UpperArmR": 40,
+				"LowerArmR": 40,
+				"UpperArmL": 40,
+				"LowerArmL": 40,
+				"ItemAnchor": 40
+			},
+			elementBlendMode: {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage",
+				"ItemAnchor": "AddAverage"
+			},
+			animationSound: {
+				frame: 5,
+				location: "gstone:block/grindingstone*",
+				range: 16
+			}
+		},
+		"file": "game:entities/humanoid/player.json"
+	},
+
+	{
+		"op": "addmerge",
+		"path": "/client/animations/-",
+		"value": {
+			code: "grindingstone-fp",
+			animation: "grindingstone-fp",
+			blendMode: "Add",
+			easeInSpeed: 7,
+			animationSpeed: 1,
+			weightCapFactor: 0.85,
+			weight: 0,
+			elementWeight: {
+				"UpperArmR": 40,
+				"LowerArmR": 40,
+				"UpperArmL": 40,
+				"LowerArmL": 40,
+				"ItemAnchor": 40
+			},
+			elementBlendMode: {
+				"UpperArmR": "AddAverage",
+				"LowerArmR": "AddAverage",
+				"UpperArmL": "AddAverage",
+				"LowerArmL": "AddAverage",
+				"ItemAnchor": "AddAverage"
+			},
+			animationSound: {
+				frame: 5,
+				location: "gstone:block/grindingstone*",
+				range: 16
+			}
+		},
+		"file": "game:entities/humanoid/player.json"
+	}
+	
+	
+]

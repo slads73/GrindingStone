@@ -1,0 +1,32 @@
+[
+	{
+		enabled: false,
+		"op": "addmerge",
+		"path": "/grindingProps",
+		"value": {
+			"groundStack": {
+				"type": "item",
+				"code": "game:flour-rice"
+			}
+		},
+		"file": "game:itemtypes/resource/catttailroot.json",
+		"side": "Server"
+	},
+	
+	{
+		enabled: false,
+		"op": "addmerge",
+		"path": "/attributes/handGrindingProps",
+		"value": {
+			"isHandGrindable": "true",
+			"inGrindingStoneTransform": {
+				"origin":      { "x": 0.5,    "y": 0,      "z": 0.5   },
+				"rotation":    { "x": -90,    "y": 0,      "z": 0     },
+				"translation": { "x": -0.125, "y": 0.0625, "z": 0.375 }
+			}
+		},
+		"file": "game:itemtypes/resource/catttailroot.json",
+		"side": "Server"
+	}	
+	
+]

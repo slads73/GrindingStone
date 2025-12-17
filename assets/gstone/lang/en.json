@@ -1,0 +1,15 @@
+{
+	"gstone:block-grindingstone-granite":        "Granite grinding stone",
+	"gstone:block-grindingstone-andesite":       "Andesite grinding stone",
+	"gstone:block-grindingstone-basalt":         "Basalt grinding stone",
+	"gstone:block-grindingstone-peridotite":     "Peridotite grinding stone",
+	"blockhelp-grindingstone-place":             "Place",
+	"blockhelp-grindingstone-store":             "Store",
+	"blockhelp-grindingstone-grind":             "Grind",
+
+	"blockcraftdesc-grindingstone-*":            "A stone for manually grinding the softest minerals and grains.",
+	
+	"gstone:block-handbooktitle-gstone:block-grindingstone-how":  "How to use:",
+	
+	"gstone:block-handbooktext-gstone:block-grindingstone-how":   "Place the item on the grinding stone and process it using a regular granite, andesite, basalt or peridotite stone.<br><br>Only the softest items and blocks can be processed this way, for everything else you would need a <a href=\"handbooksearch://quern\">quern.</a><br>Grindable items:<br><a href=\"handbook://item-stone-chalk\">Chalk stone</a><br><a href=\"handbook://item-stone-halite\">Halite stone</a><br><a href=\"handbook://item-ore-sulfur\">Sulfur</a><br><a href=\"handbook://item-ore-borax\">Borax</a><br><a href=\"handbook://item-ore-sylvite\">Sylvite</a><br><a href=\"handbook://item-charcoal\">Charcoal</a><br><a href=\"handbooksearch://grain\">Grains</a><br><a href=\"handbook://item-rawcassava-dried\">Dried cassava</a><br><a href=\"handbook://item-bone-tiny\">Small bones</a><br><a href=\"handbooksearch://sea shell\">Seashells</a><br>"
+}

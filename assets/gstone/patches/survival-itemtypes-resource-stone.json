@@ -1,0 +1,93 @@
+[
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/stone-granite/handGrindingProps",
+		"value": {
+			isHandGrinder: true,
+			inGrindingStoneTransform: {
+					translation: { x: 0,   y: 0,    z: -0.125 },
+					origin:      { x: 0.5, y: 0,    z:  0.375 },
+					rotation:    { x: 0,   y: 22.5, z:  0     }
+			}
+		},
+		"file": "game:itemtypes/resource/stone.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/stone-peridotite/handGrindingProps",
+		"value": {
+			isHandGrinder: true,
+			inGrindingStoneTransform: {
+					translation: { x: 0,   y: 0,    z: -0.125 },
+					origin:      { x: 0.5, y: 0,    z:  0.375 },
+					rotation:    { x: 0,   y: 22.5, z:  0     }
+			}
+		},
+		"file": "game:itemtypes/resource/stone.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/stone-andesite/handGrindingProps",
+		"value": {
+			isHandGrinder: true,
+			inGrindingStoneTransform: {
+					translation: { x: 0,   y: 0,    z: -0.125 },
+					origin:      { x: 0.5, y: 0,    z:  0.375 },
+					rotation:    { x: 0,   y: 22.5, z:  0     }
+			}
+		},
+		"file": "game:itemtypes/resource/stone.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/stone-basalt/handGrindingProps",
+		"value": {
+			isHandGrinder: true,
+			inGrindingStoneTransform: {
+					translation: { x: 0,   y: 0,    z: -0.125 },
+					origin:      { x: 0.5, y: 0,    z:  0.375 },
+					rotation:    { x: 0,   y: 22.5, z:  0     }
+			}
+		},
+		"file": "game:itemtypes/resource/stone.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType/stone-chalk/handGrindingProps",
+		"value": {
+			isHandGrindable: true
+		},
+		"file": "game:itemtypes/resource/stone.json"
+	},
+	{
+		"op": "addmerge",
+		"path": "/attributesByType",
+		"value": {
+			"stone-halite":
+			{
+				handGrindingProps:
+				{
+					isHandGrindable: true
+				}
+			}
+		},
+		"file": "game:itemtypes/resource/stone.json"
+	}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

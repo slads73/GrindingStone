@@ -1,0 +1,66 @@
+[
+	{
+		"file": "game:itemtypes/resource/bone-tiny.json",
+		"op": "addmerge",
+		"path": "/attributes/handGrindingProps",
+		"value": {
+			isHandGrindable: true
+		}		
+	},	
+	{
+		"file": "game:itemtypes/resource/charcoal.json",
+		"op": "addmerge",
+		"path": "/attributes/handGrindingProps",
+		"value": {
+			isHandGrindable: true
+		}		
+	},
+	{
+		"file": "game:itemtypes/food/grain.json",
+		"op": "addmerge",
+		"path": "/attributes/handGrindingProps",
+		"value": {
+			isHandGrindable: true
+		}		
+	},	
+	{
+		"file": "game:itemtypes/food/rawcassava.json",
+		"op": "addmerge",
+		"path": "/attributesByType",
+		"value": {
+			"*-dried":
+			{
+				handGrindingProps:
+				{
+					isHandGrindable: true
+				}
+			}
+		}		
+	},	
+	{
+		"file": "game:blocktypes/aquatic/seashell.json",
+		"op": "addmerge",
+		"path": "/attributes/handGrindingProps",
+		"value": {
+			isHandGrindable: true
+		}		
+	}
+	
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+{
+	code: "grindingstone",	
+	class: "gstone.grindingStone",
+	entityClass: "gstone.grindingStoneEntity",
+	behaviors: [
+		{name: "UnstableFalling", properties: { fallSound: null, dustIntensity: 0 }}	
+	],
+	
+	variantgroups: [
+		{ code: "type", states: ["granite", "andesite", "basalt", "peridotite"] },
+	],
+	attributes: {
+		inGrindingStoneTransform: {
+			translation: { x: 0, y: 0.125, z: 0 }
+		},
+		reinforcable: true,
+		handbook: {
+			groupBy: ["gstone:grindingstone-*"],
+			exclude: false,
+			extraSections: [
+				{
+					"title": "gstone:block-handbooktitle-gstone:block-grindingstone-how",
+					"text": "gstone:block-handbooktext-gstone:block-grindingstone-how"
+				}
+			]
+		},
+	},
+	
+	creativeinventory: { "general": ["*"] },
+	
+	shape: { base: "gstone:block/stone/grindingstone" },
+	textures: {
+		"stone": { base: "game:block/stone/rock/{type}1" }
+	},
+	drawtype: "json",
+	
+	maxStackSize: 1,
+	blockmaterial: "Stone",
+	replaceable: 600,	
+	resistance: 3,
+	lightAbsorption: 0,
+	
+	sounds: {
+		"walk": "game:walk/stone"
+	},
+	
+	collisionSelectionBoxes: [
+		{
+			x1: 0.1875, y1: 0,     z1: 0.1875,
+			x2: 0.8125, y2: 0.125, z2: 0.8125
+		},
+	],
+	
+	sideopaque: { all: false },
+	sideao: { all: true },
+	emitsideao: { all: false },
+	sidesolid: { all: false },
+	
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.34, y: -0.39, z: -0.53 },
+		rotation:    { x: 8,     y: 14,    z: -81 },
+		origin:      { x: 0.5,   y: 0.25,  z: 0.5 },
+		scale: 0.5
+	}
+}
