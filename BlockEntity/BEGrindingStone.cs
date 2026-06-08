@@ -152,7 +152,13 @@ namespace GrindingStone.BlockEntity
                 updateMeshes();
                 MarkDirty(true);
 
-                AssetLocation sound = slot.Itemstack?.Block?.Sounds?.Place;
+                Api.World.PlaySoundAt(
+                    new AssetLocation("sounds/player/build"),
+                    byPlayer.Entity,
+                    byPlayer,
+                    true,
+                    16
+                );
                 Api.World.PlaySoundAt(sound ?? new AssetLocation("sounds/player/build"), byPlayer.Entity, byPlayer, true, 16);
                 Api.World.Logger.Audit("{0} Put 1x{1} into GrindingStone slotid 0 at {2}.",
                     byPlayer.PlayerName,
@@ -171,7 +177,13 @@ namespace GrindingStone.BlockEntity
             ItemStack stack = inventory[0].TakeOut(stacksize);
             if (byPlayer.InventoryManager.TryGiveItemstack(stack, true))
             {
-                AssetLocation sound = stack.Block?.Sounds?.Place;
+                Api.World.PlaySoundAt(
+                    new AssetLocation("sounds/player/build"),
+                    byPlayer.Entity,
+                    byPlayer,
+                    true,
+                    16
+                );
                 Api.World.PlaySoundAt(sound ?? new AssetLocation("sounds/player/build"), byPlayer.Entity, byPlayer, true, 16);
                 Api.World.Logger.Audit("{0} Took {1}x {2} from GrindingStone slotid 0 at {3}.",
                     byPlayer.PlayerName,
@@ -200,7 +212,13 @@ namespace GrindingStone.BlockEntity
         {
             if (byPlayer.InventoryManager.TryGiveItemstack(new(Block, 1)))
             {
-                AssetLocation sound = Block.Sounds?.Place;
+                Api.World.PlaySoundAt(
+                    new AssetLocation("sounds/player/build"),
+                    byPlayer.Entity,
+                    byPlayer,
+                    true,
+                    16
+                );
                 Api.World.PlaySoundAt(sound ?? new AssetLocation("sounds/player/build"), byPlayer.Entity, byPlayer, true, 16);
 
                 Api.World.BlockAccessor.SetBlock(0, Pos);
